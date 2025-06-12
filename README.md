@@ -5,7 +5,7 @@
 2. For compute engine use [Kaggle notebook](https://www.kaggle.com/code), or [Google colab](http://colab.research.google.com), or [Deepnote](https://deepnote.com)
 
 
-### Activities involving Exploratory Data Analysis (EDA)
+### Part A: Activities involving Exploratory Data Analysis (EDA)
 1. How many rows are in dataset: `week-01/datasets/A.csv`? How about in `week-01/datasets/B.txt` and in
 `week-01/datasets/C.csv`? 
 2. Repeat the previous task to find out how many `samples` (i.e., instances) are there in each of the dataset?
@@ -17,7 +17,7 @@
 8. Please briefly describe each of the 3 datasets (i.e., what the datasets are about)
 9. Care to explore more of the datasets?
 
-### Activities with an online dataset
+### Part B: Activities with an online dataset
 1. Get the dataset: i) Go to [https://www.fueleconomy.gov](https://www.fueleconomy.gov), ii) Scroll down the page to find link to “Download EPA’s MPG Ratings” and click on it. iii) Locate the section titled Datasets for All Model Years (1984–2025)., iv) Click on Zipped CSV File to download the dataset. How many samples are there in the dataset? Also, how many features are there per sample
 2. Let’s filter the dataset. We are interested only with vehicle’s engine displacement (`displ`), model year (`year`), unadjusted mpg on highway (`UHighway`), unadjusted mpg on city (`UCity`) and the fuel type (`fuelType`). Create a dataframe that contains the filtered dataset.
 3. Do the following:
@@ -36,7 +36,7 @@ For this question, please choose option 2 and prepare the dataset.
 10. Evaluate the model performance (in terms of Root Mean Squared Error, and R-squared score)
 11. pick one sample from the test set, and estimate MPG. How bad was it?
 
-### Activities with a classification problem
+### Part C: Activities with a classification problem
 1. A classification task for you: Get the dataset first: go to [this link at https://www.muratkoklu.com/datasets/](https://www.muratkoklu.com/datasets/), and download the `Date Fruit Datasets`. You will get the `Date Fruit Datasets.zip`. Unzip it to get the `Date Fruit Datasets.xlsx` file among other files. We will be working on the `xlsx` file today.
 2. Load the dataset and tell i) How many samples are there in the dataset? ii) how many features are there per sample, excluding the class/type label? iii) Print the number of unique classes (i.e., fruit types), list the class names, and their frequency distribution.
 3. List mean, stdev, min, max of each of the features in the dataset
@@ -47,12 +47,12 @@ For this question, please choose option 2 and prepare the dataset.
 8. Predict class label of just one sample picked from the test set.
 9. Evaluate the model performance based on the test set in terms of accuracy, precision, recall and F1.
 
-### Machine Learning Pipeline
+### Part D: Machine Learning Pipeline
 1. Please establish a `scikit-learn` `Pipeline` for any of the above 2 activities.
 	- Reference 1: [https://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html](https://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html)
 	- Reference 2: [Example code 1](https://scikit-learn.org/stable/auto_examples/compose/plot_column_transformer_mixed_types.html#sphx-glr-auto-examples-compose-plot-column-transformer-mixed-types-py)
 
-### A short orientation on bias detection and mitigation with `aif360` package
+### Part E: A short orientation on bias detection and mitigation with `aif360` package
 1. Here is the link to retrieve the German Credit dataset: [https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data](https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data)
   * Easy way to import into Python workspace:
 ```
