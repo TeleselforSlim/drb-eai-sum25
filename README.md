@@ -1,5 +1,8 @@
 # Workspace for Summer 2025 `Ethics and Bias in AI` course
 
+## Week 2 (6/11)
+1. Check the notebook in `week-2/` and the `aif360` package. (Please read the doc of `aif360` at [https://aif360.readthedocs.io/en/stable/modules/generated/aif360.datasets.StandardDataset.html#aif360.datasets.StandardDataset](https://aif360.readthedocs.io/en/stable/modules/generated/aif360.datasets.StandardDataset.html#aif360.datasets.StandardDatasetxs))
+
 ## Week 1 (6/9, 6/11)
 1. Setup Python 3.10+ and create Virtual Environment named `venv-week1`
 2. For compute engine use [Kaggle notebook](https://www.kaggle.com/code), or [Google colab](http://colab.research.google.com), or [Deepnote](https://deepnote.com)
